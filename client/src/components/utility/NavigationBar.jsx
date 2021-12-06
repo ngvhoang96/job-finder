@@ -5,7 +5,9 @@ export default function NavigationBar() {
 	const client = useSelector((state) => state.clientReducer);
 	return (
 		<div>
-			<div>This is navigation bar</div>
+			<div>
+				<a href="/">Home</a>
+			</div>
 			<div>
 				<span>Hello {client.name}</span>
 			</div>
